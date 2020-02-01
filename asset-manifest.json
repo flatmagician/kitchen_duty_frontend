@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/kitchen_duty_frontend/static/css/main.3ce2cfb1.chunk.css",
+    "main.js": "/kitchen_duty_frontend/static/js/main.0de677e1.chunk.js",
+    "main.js.map": "/kitchen_duty_frontend/static/js/main.0de677e1.chunk.js.map",
+    "runtime-main.js": "/kitchen_duty_frontend/static/js/runtime-main.f44d4f1f.js",
+    "runtime-main.js.map": "/kitchen_duty_frontend/static/js/runtime-main.f44d4f1f.js.map",
+    "static/css/2.25b83785.chunk.css": "/kitchen_duty_frontend/static/css/2.25b83785.chunk.css",
+    "static/js/2.b0c09b95.chunk.js": "/kitchen_duty_frontend/static/js/2.b0c09b95.chunk.js",
+    "static/js/2.b0c09b95.chunk.js.map": "/kitchen_duty_frontend/static/js/2.b0c09b95.chunk.js.map",
+    "index.html": "/kitchen_duty_frontend/index.html",
+    "precache-manifest.46c1d31ffb0f869125b8b560f25e42ce.js": "/kitchen_duty_frontend/precache-manifest.46c1d31ffb0f869125b8b560f25e42ce.js",
+    "service-worker.js": "/kitchen_duty_frontend/service-worker.js",
+    "static/css/2.25b83785.chunk.css.map": "/kitchen_duty_frontend/static/css/2.25b83785.chunk.css.map",
+    "static/css/main.3ce2cfb1.chunk.css.map": "/kitchen_duty_frontend/static/css/main.3ce2cfb1.chunk.css.map",
+    "static/js/2.b0c09b95.chunk.js.LICENSE.txt": "/kitchen_duty_frontend/static/js/2.b0c09b95.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/kitchen_duty_frontend/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f44d4f1f.js",
+    "static/css/2.25b83785.chunk.css",
+    "static/js/2.b0c09b95.chunk.js",
+    "static/css/main.3ce2cfb1.chunk.css",
+    "static/js/main.0de677e1.chunk.js"
+  ]
+}
