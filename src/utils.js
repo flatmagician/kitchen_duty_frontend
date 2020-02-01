@@ -18,7 +18,6 @@ export async function remove_date(query) {
 
 export function moment_to_query(moment) {
     const date = moment.format('YYYY MM DD').split(" ")
-    console.log(date)
     return {
         year: Number(date[0]),
         month: Number(date[1]),
@@ -27,7 +26,6 @@ export function moment_to_query(moment) {
 }
 
 export function get_days_in_month(year, month) {
-    console.log("getting days in month" + month)
     let arrDays = [];
     let day = 1
     while (day <= 31) {

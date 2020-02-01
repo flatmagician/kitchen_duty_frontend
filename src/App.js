@@ -15,7 +15,6 @@ export default class App extends Component {
     super(props)
     this.year = moment().year()
     this.month = 1
-    console.log(this.month)
     this.day = moment().date()
     this.state = {
       year: this.year,
@@ -39,7 +38,6 @@ export default class App extends Component {
   }
 
   initEvents() {
-    console.log("init!")
     Promise.all(get_days_in_month(this.state.year, this.state.month + 1)).then(dates => {
       const eventsList = dates.map(date => {
         if (date.data === "None") {
@@ -62,7 +60,6 @@ export default class App extends Component {
     let eventsList = this.state.eventsList
     if (this.state.inputValue === "") {
       eventsList = eventsList.map(event => {
-        console.log(`${this.state.year}-${this.state.month + 1}-${this.state.day}`)
         if (event !== null && event.start === `${this.state.year}-${this.state.month + 1}-${this.state.day}`) {
           return null
         }
@@ -110,7 +107,6 @@ export default class App extends Component {
     }
     else {
       if (this.state.inputValue !== "") {
-        console.log("here")
         insert_date({
           day: this.state.day,
           month: this.state.month + 1,
@@ -119,7 +115,6 @@ export default class App extends Component {
         }).then(this.updateEvents)
       }
       else {
-        console.log("removing")
         remove_date({
           day: this.state.day,
           month: this.state.month + 1,
@@ -150,11 +145,9 @@ export default class App extends Component {
   }
 
   decrementMonth() {
-    console.log(this.state)
     if (this.state.month === 0 && this.state.year === 2020) {
     }
     else {
-      console.log("here")
       if (this.state.month !== 0) {
         this.setState({
           month: this.state.month - 1,
@@ -167,7 +160,6 @@ export default class App extends Component {
         }, this.initEvents)
       }
       document.querySelectorAll('button').forEach(button => {
-        console.log(button.innerHTML)
         if (button.innerHTML === "Back") {
           button.click()
         }
