@@ -74,7 +74,7 @@ export default class App extends Component {
         title: this.state.inputValue,
       }
     }
-    this.setState({ eventsList: eventsList })
+    this.setState({ eventsList: "" })
   }
 
   onSelecting(data) {
