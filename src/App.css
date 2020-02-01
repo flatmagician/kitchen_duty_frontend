@@ -1,5 +1,12 @@
-.App {
+.App,
+.root,
+body,
+html {
   text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .App-logo {
@@ -11,6 +18,38 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.instructionalText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px
+}
+
+.increment {
+  background-color: mediumspringgreen
+}
+
+.decrement {
+  background-color: pink
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.rbc-toolbar {
+  display: none
+}
+
+.rbc-event {
+  color: black !important;
+  background: none !important;
+  outline: none !important
 }
 
 .App-header {
@@ -32,6 +71,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
