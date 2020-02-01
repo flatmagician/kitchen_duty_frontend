@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kitchen_duty_frontend/static/css/main.3ce2cfb1.chunk.css",
-    "main.js": "/kitchen_duty_frontend/static/js/main.9793eaef.chunk.js",
-    "main.js.map": "/kitchen_duty_frontend/static/js/main.9793eaef.chunk.js.map",
+    "main.js": "/kitchen_duty_frontend/static/js/main.e1ecbc3f.chunk.js",
+    "main.js.map": "/kitchen_duty_frontend/static/js/main.e1ecbc3f.chunk.js.map",
     "runtime-main.js": "/kitchen_duty_frontend/static/js/runtime-main.f44d4f1f.js",
     "runtime-main.js.map": "/kitchen_duty_frontend/static/js/runtime-main.f44d4f1f.js.map",
     "static/css/2.25b83785.chunk.css": "/kitchen_duty_frontend/static/css/2.25b83785.chunk.css",
     "static/js/2.b0c09b95.chunk.js": "/kitchen_duty_frontend/static/js/2.b0c09b95.chunk.js",
     "static/js/2.b0c09b95.chunk.js.map": "/kitchen_duty_frontend/static/js/2.b0c09b95.chunk.js.map",
     "index.html": "/kitchen_duty_frontend/index.html",
-    "precache-manifest.4ff5e5d65eaa1ebf0863204c0311ab83.js": "/kitchen_duty_frontend/precache-manifest.4ff5e5d65eaa1ebf0863204c0311ab83.js",
+    "precache-manifest.da1ff6aa684c68fc2f6b121fdc4945b1.js": "/kitchen_duty_frontend/precache-manifest.da1ff6aa684c68fc2f6b121fdc4945b1.js",
     "service-worker.js": "/kitchen_duty_frontend/service-worker.js",
     "static/css/2.25b83785.chunk.css.map": "/kitchen_duty_frontend/static/css/2.25b83785.chunk.css.map",
     "static/css/main.3ce2cfb1.chunk.css.map": "/kitchen_duty_frontend/static/css/main.3ce2cfb1.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.25b83785.chunk.css",
     "static/js/2.b0c09b95.chunk.js",
     "static/css/main.3ce2cfb1.chunk.css",
-    "static/js/main.9793eaef.chunk.js"
+    "static/js/main.e1ecbc3f.chunk.js"
   ]
 }
